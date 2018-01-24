@@ -1,0 +1,111 @@
+Git avanzado
+Profesor Alejandro
+
+Sistema SVC centralizado : CVS y SVN
+Sistema SCV distribuido : El repo está distribuido, aunque no tengamos acceso al repo remoto podemos commitear en local. Git 2005
+
+Git 
+Herrientas : Git GUI / Git BASH / Git CMD
+Es rapido, distribuido, para grandes proyectos
+
+Objetivos
+Versiones no incrementales
++ Solo almacena los ficheros modificados, y punteros a la información del repo
+Trabajo fuera de linea
++ Puede trabajar fuera de red,
+
+SEGURIDAD
+Autentificación critografica
++ID por secuencia Hash
+
+INFORMACION HEPL
+overAPI.com : Chuletario de comandos de Git y mas cosas
+ndpsoftware.com : comandos y descripciones
+
+Comando util HELP
+$ git init --help
+Abre una pagina htm con información
+
+GitHub for windows
+https://desktop.github.com/
+
+ALIAS
+git config --global alias.co commit 
+-> esto lo que hace es acortar el commit a co
+
+Para que Git funcione con un proxy
+git config --global http.proxy http*
+
+PARTES DE REPO
+working directory --> working stage --> repository
+
+CICLO DE VIDA
+untracked-> unmodified-> modified-> staged 
+
+LSF
+Para ficheros grandes, hacer git LSF, sustituye las imagenes y audios , ficheros grandes por links
+
+COMMIT
+Commit es el equivalente dentro de un repositorio a un registro en una base de datos
+Tiene un changeset y los punteros a todos los ficheros que han cambiado
+
+Origen de un commit: puede ser porque el user ha hecho commit o por parte del sistema porque se haya hecho un merge.
+Es un elemento transaccional atomico.
+
+Para ver el contenido de un commit:
++ git show NOMBRECOMMIT -> Muestra los metadatos el usuario que hizo el commit, el hash y el contenido del fichero.
+Identificado por un checksum
+
+PUNTEROS Y RAMAS
+Ramas ->  Secuencias temporales , identificadas por un puntero que apunta a la cabecera de la rama.
+Puntero HEAD -> Puntero que localiza el ultimo commit de la rama activa.
+Solo puede haber una rama activa.
+Hacer CHECKOUT -> Para cmambiarnos de rama o de versión de una misma rama
+El fichero HEAD contiene la ubicación de donde estamos en ese momento en .git: HEAD-> ref: refs/heads/master
+
+Puntero ORIG_HEAD
+Aquí se guarda la posición anterior del HEAD, dado que en algun momento si necesitamos volver a la posición original para abortar una acción
+
+Comandos Porcelana
+Son comandos simples
+
+Comandos cañeria
+Son comandos complejos con --
+
+Para crear el repo
+git init 
+Si no has creado la carpeta
+git init cursoGit
+
+PARA FROZAR
+git add -f nombreFichero
+
+REPOSITORIO BARE
+Repo simple, no tiene directorio de trabajoo, vale para clonar otro repo.
+git init <repository> --bare
+
+Aplicaciones para un repo bare
+Herramienta Gitolite
+Gestion de seguridad y usarios que no se gestiona sola.
+GitLab
+Con todo esto nos creamos un GitHub para nosotros.
+ 
+GitHub es un repositorio de moda.
+
+Git remote lo que hace es designar los punteros.
+
+FORK
+
+Clona un remoto a mi cuenta remota, son copias en remoto pero nada en local
+
+COMO CREAR GIT HUB PAGES
+Se crea por medio del GitHub
+Creamos una rama gh-pages
+y en esta pagina ponemos un index.html
+
+USO GITLAB
+
+
+
+
+
