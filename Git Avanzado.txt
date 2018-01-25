@@ -154,6 +154,23 @@ juntan los cambios de los 7 commits en el Stage y los puedes volver a commitear 
 
 HUB : https://github.com/VIC84/CursoGit01/
 
+RAMAS
+git branch MI_RAMA
+git checkout -b MI_RAMA --> Se crea la rama y del tiron se va la rama
+git push -u origin MI_RAMA
+
+Git remote --> Crea un remoto
+
+
+TRMM-34422-DRS 627493 04_CONSTRUCCION ActividadRetornoFlujo
+TRMM-34424-DRS 627493 04_CONSTRUCCION vkMotor.properties
+TRMM-34423-DRS 627493 03_DISEÑO vkMotor.properties
+TRMM-34421-DRS 627493 03_DISEÑO ActividadRetornoFlujo
+TRMM-34420-DRS 627493 04_CONSTRUCCION EnumVK
+TRMM-34419-DRS 627493 03_DISEÑO EnumVK
+
+
+
 
 
 
