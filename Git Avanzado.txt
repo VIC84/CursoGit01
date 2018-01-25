@@ -104,6 +104,37 @@ Creamos una rama gh-pages
 y en esta pagina ponemos un index.html
 
 USO GITLAB
+Como el que usamos en indra
+
+Operaciones basicas en GIT
+
+Eliminar algo que hemos subido al ADD
+Si hemos subido algo al tracked y lo quiero hechar para atras, solo para el primer add, cuando no hay HEAD porque no hemos hecho ningun commit : git rm --cached <file>
+Si hemos subido algo al tracked y lo quiero hechar para atras, cuando si hay HEAD : git reset HEAD <file>
+
+git mv -> el renombra el fichero y hace add con el fichero
+
+
+VER COMMITS
+número de hash -> tiene 40 posiciones.
+Acceso a los commit -> Por el ID que es de 8 posiciones que sale del HASH
+Tambien puedes utilizar los punteros master^ HEAD^
+ALTGR 4 para sacar la ~. 
+
+Git show --> nos enseña lo que contiene el commit
+$ git show master^^ esto es para ver el 2 commit atras
+$ git show master~16 esto es para ver el 16 commit atras
+
+Pintar gráfico con versiones.
+git log --decorate --graph --oneline
+
+Ver commits que están afectando a un fichero
+git log Nombre de Fichero
+
+Buscar por enunciado del commit
+git log --grep="nombre buscado contenido el mensaje del commit"
+
+
 
 
 
