@@ -1,0 +1,205 @@
+    1  ls
+    2  ls ĺrt
+    3  ls´-lrt
+    4  git --version
+    5  git --help
+    6  git init --help
+    7  dir
+    8  git config -global core.editor "code.exe --wait"
+    9  git config --global core.editor "code.exe --wait"
+   10  cd /c
+   11  cd /c/Users
+   12  cd /Documents
+   13  dir
+   14  cd usuario13
+   15  cd Documents
+   16  dir
+   17  cd CursoGit/
+   18  git status
+   19  git gui
+   20  git show
+   21  git core .
+   22  git core
+   23  code .
+   24  git status
+   25  git status
+   26  git status
+   27  git status
+   28  git config -l
+   29  git remote add origin https://github.com/VIC84/CursoGit01.git
+   30  git status
+   31  git remote -v
+   32  git status
+   33  git commit -m "mi commit"
+   34  git status
+   35  git gui
+   36  git status
+   37  cd ..
+   38  $ git clone https://github.com/VIC84/CursoGit02.git /CursoGit02
+   39  git clone https://github.com/VIC84/CursoGit02.git /CursoGit02
+   40  git clone https://github.com/VIC84/CursoGit02.git CursoGit02
+   41  cd CursoGit02
+   42  git status
+   43  dir
+   44  git log
+   45  git show
+   46  git remote -v
+   47  dir
+   48  code .
+   49  git statusç
+   50  git status
+   51  git add .
+   52  git status
+   53  git commit -m "Nuevo commit"
+   54  git status
+   55  git commit --amend
+   56  git commit --amend
+   57  git commit --amend
+   58  git config -l
+   59  git config code.editor code --wait
+   60  git config -l
+   61  git config code.editor "code --wait"
+   62  git config -l
+   63  git commit --amend
+   64  git config -l
+   65  git commit --amend
+   66  git status
+   67  git push
+   68  git commit --amend
+   69  git push
+   70  git pull
+   71  git status
+   72  git show
+   73  git log
+   74  git show d71240ebbe7d468cea6f90319268c7cfee0bd61d
+   75  git push
+   76  code .
+   77  cd ..
+   78  git clone https://github.com/alce65Indra/Curso_Git_01.git Curso_GIT_01
+   79  git status
+   80  code .
+   81  cd Curso_GIT_01/
+   82  git statsu
+   83  git status
+   84  git pull
+   85  code .
+   86  git status
+   87  git gui
+   88  git status
+   89  git log
+   90  cd ..
+   91  cd CursoGit
+   92  git status
+   93  code.
+   94  code .
+   95  git status
+   96  git commit -am "Nuevo index"
+   97  git status
+   98  git gui
+   99  git status
+  100  git gui
+  101  git status
+  102  git status
+  103  dir
+  104  cd Documents
+  105  dir
+  106  git init CursoGit03
+  107  cd CursoGit03
+  108  code .
+  109  git status
+  110  git add .
+  111  git status
+  112  git rm --cached Readme.md
+  113  git status
+  114  git add .
+  115  git status
+  116  git commit -m "SUbida de Readme"
+  117  git status
+  118  git log
+  119  code .
+  120  git status
+  121  git add .
+  122  git status
+  123  git reset HEAD .
+  124  git status
+  125  git status
+  126  git commit -am "Segundo commit"
+  127  git commit -a "Segundo commit"
+  128  git add
+  129  git add .
+  130  git status
+  131  git commit -m "Segundo commit"
+  132  git status
+  133  git status
+  134  git commit -am "Tercer commit"
+  135  git status
+  136  git log
+  137  git config --global alias.lol git log --oneline 
+  138  git config --global alias.lol log --oneline 
+  139  git lol
+  140  git config -l
+  141  git log
+  142  git lol
+  143  git show 9ac5d2d
+  144  git show master^^
+  145  git show master~2
+  146  git show master~
+  147  git show master~1
+  148  git log --decorate --graph --oneline
+  149  git log --no-merges
+  150  git log --no-merges --oneline
+  151  git blame README.md
+  152  git blame Fichero1
+  153  git blame Fichero01
+  154  git status
+  155  cd ..
+  156  cd CursoGit
+  157  git status
+  158  git add .
+  159  git status
+  160  git commit -m "Fichero Tutorial Curso"
+  161  git status
+  162  git push
+  163  git status
+  164  git push --set-upstream origin master
+  165  git status
+  166  git blame Git Avanzado.txt
+  167  git blame Fichero1.txt
+  168  git blame "Git Avanzado.txt"
+  169  git status
+  170  git commit -am "Nueva version"
+  171  git push
+  172  code .
+  173  git status
+  174  git add .
+  175  git commit -m "Ficheros"
+  176  git status
+  177  git status
+  178  git add .
+  179  git commit -m "Ficheros2"
+  180  git checkout master^^
+  181  git checkout master^
+  182  git checkout master
+  183  git checkout master^
+  184  git status
+  185  git add .
+  186  git commit -m "Fichero Raro"
+  187  git lg
+  188  git lol
+  189  git log --decorate --graph --oneline
+  190  gitk
+  191  git co master
+  192  git ckeckout master
+  193  git checkout master
+  194  git status
+  195  git push
+  196  git status
+  197  git stash list
+  198  git stash
+  199  git status
+  200  git stash pop
+  201  git status
+  202  --help
+  203  git --help
+  204  history
+  205  history > vic.txt
