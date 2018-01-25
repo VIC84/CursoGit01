@@ -154,6 +154,12 @@ juntan los cambios de los 7 commits en el Stage y los puedes volver a commitear 
 
 HUB : https://github.com/VIC84/CursoGit01/
 
+RAMAS
+git checkout -b MI_RAMA
+git push -u origin MI_RAMA
+
+
+
 
 
 
