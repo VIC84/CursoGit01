@@ -134,6 +134,17 @@ git log Nombre de Fichero
 Buscar por enunciado del commit
 git log --grep="nombre buscado contenido el mensaje del commit"
 
+git log --no-merges --oneline : Este saca el log de commits pero sin commit de los merges.
+
+git blame <archivo> : Te saca del archivo lo que haya cambiado por consola.
+
+git checkout --> Mueve el HEAD donde tu le digas
+
+git checkout master^^ --> Mueve el HEAD dos versiones para atrás
+
+git checkout RAMA --> Te mueve el HEAD a la rama RAMA
+
+
 
 
 
