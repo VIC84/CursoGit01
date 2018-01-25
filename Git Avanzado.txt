@@ -144,6 +144,16 @@ git checkout master^^ --> Mueve el HEAD dos versiones para atrás
 
 git checkout RAMA --> Te mueve el HEAD a la rama RAMA
 
+git rm <fichero>
+
+git reset --> Mueve el puntero, borrando lo que queda por delante.
+Designas donde quieres que deje el puntero
+
+Si has hecho 7 commit de una misma clase puedes irte con el puntero 7 veces para atras en la master y hacer un git reset --soft <id del commit al que quiero irme> con esto se te 
+juntan los cambios de los 7 commits en el Stage y los puedes volver a commitear en solo un comit unico --> squash
+
+
+
 
 
 
